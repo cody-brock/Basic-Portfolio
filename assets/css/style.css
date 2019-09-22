@@ -1,0 +1,32 @@
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header a{
+    text-decoration: none;
+    /* text-align: center; */
+    color: ffffff;
+    display: block;
+    padding: 10px;
+    background-color: #4aaaa5;
+}
+
+.header a:hover {
+    background-color: #555;
+}
+
+@media screen and (min-width: 768px){
+    .header ul{
+        display: flex;
+    }
+
+    .header li{
+        flex: 1 1 0;
+    }
+}
