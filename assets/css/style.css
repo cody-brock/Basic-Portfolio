@@ -1,32 +1,101 @@
-.header ul {
+header {
+    background-color: #ffffff;
+}
+
+header:after {
+    content:' ';
+    display: block;
+    border: .5px solid #cccccc;
+}
+
+h2 {
+    color:#4aaaa5;
+}
+
+h2:after {
+    content:' ';
+    display: block;
+    border: .5px solid #cccccc;
+}
+
+body {
+    background-image: url(../images/interlaced.png);
+    color: #777777;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box-1 {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+}
+
+
+/* menu styles */
+
+
+nav ul{
     list-style-type: none;
     padding: 0;
 }
 
-.header a{
+nav a{
     text-decoration: none;
     /* text-align: center; */
     color: ffffff;
     display: block;
     padding: 10px;
-    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header a:hover {
-    background-color: #555;
+.name-header{
+    font-size: 21.5px;
+    background: #4aaaa5;
 }
 
-    .header ul{
+nav >.name-header a {
+    color: #ffffff;
+}
+
+.links{
+    
+}
+
+nav >.links a {
+    color: #777777;
+}
+
+nav a:hover {
+    background-color: #7eb9b6;
+}
+
+
+/* flex styles below */
+
+@media screen and (min-width: 768px) {
+
+    nav ul{
         display: flex;
     }
 
-    .name-menu {
-        justify-content: flex-start;
+    nav li{
+        flex: 1
     }
-    
-    .rest-of-menu {
-        justify-content: flex-end;
-    }
-    
+
+        nav {
+          display: flex;
+          justify-content: space-between
+        }
+
+
 }
+
+    
+    
