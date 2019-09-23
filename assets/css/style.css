@@ -29,13 +29,19 @@ body {
     margin: 0 auto;
 }
 
-.box-1 {
-    margin: 30px;
-    padding: 30px;
-    border: 1px solid #000;
-    width: 400px;
-    height: 200px;
-}
+footer {
+    padding: 5px 0;
+    margin: 5px;
+    text-align: center;
+    background-color: #111111;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.social > li {
+    display: inline-block;
+    /* margin: 0 5px; */
+  }
 
 
 /* menu styles */
