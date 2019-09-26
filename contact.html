@@ -13,48 +13,53 @@
     </head>
 
     <header>
-            <div class="container">
-                <nav>
-                    <ul class="name-header">
-                        <li><a href="">Cody Brock</a></li>
-                    </ul>
-                    
-                    <ul class="links">
-                        <li><a href="">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        <div class="container">
+            <nav>
+                <ul class="name-header">
+                    <li><a href="">Cody Brock</a></li>
+                </ul>
+                
+                <ul class="links">
+                    <li><a href="">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class="main-content-wrapper">
         
-        <h2>Contact</h2>
-            
-            <form = action="/my-handling-form-page" method="POST">
-
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                </div>
-
-                <div>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_mail">
-                </div>
-
-                <div>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                </div>
+            <h2>Contact</h2>
                 
-                <div>Submit</div>
+                <form = action="/my-handling-form-page" method="POST">
 
-            </form> 
+                    <div class="form-width">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="user_name" placeholder="John Smith">
+                    </div>
+
+                    <div>
+                        <label for="mail">Email</label><br>
+                        <input type="email" id="mail" name="user_mail" placeholder="example@gmail.com">
+                    </div>
+
+                    <div>
+                        <label for="msg">Message</label><br>
+                        <textarea id="msg" name="user_message" placeholder="Message here"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </form> 
+
+        </div>
 
 
         <script src="" async defer></script>
