@@ -147,11 +147,11 @@ nav a:hover {
 
 
 /* Contact page field formatting */
-
 form {
     padding: 1em;
     width: 300px;
-}
+
+} 
     
 form div + div {
     margin-top: 1em;
@@ -165,4 +165,47 @@ button {
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 12pt;
+}
+
+
+/* Portfolio page formatting */
+
+.portfolio-wrapper {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.text-block-1  {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+#name {
+    padding-right: 780px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+ }
+
+ #mail {
+    padding-right: 780px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+ }
+
+
+#msg {
+   padding-right: 780px; 
+   padding-left: 5px;
+   padding-bottom: 75px;
+   padding-top: 5px;
 }
